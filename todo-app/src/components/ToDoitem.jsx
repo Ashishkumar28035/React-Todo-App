@@ -1,6 +1,4 @@
-function ToDoitem(){
-    let todoName = "Buy Milk";
-    let tododate = "4/10/2023"
+function ToDoitem({todoName,tododate}){
 return(
     <div class="container">
         <div class="row kg-row">

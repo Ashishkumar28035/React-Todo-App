@@ -1,7 +1,6 @@
 import Addtodo from "./components/Addtodo";
 import AppName from "./components/AppName";
 import ToDoitem from "./components/ToDoitem";
-import ToDoitem2 from "./components/ToDoitem2";
 import "./App.css";
 function App() {
   return (
@@ -9,8 +8,8 @@ function App() {
       <AppName></AppName>
       <Addtodo></Addtodo>
       <div className="items-container">
-        <ToDoitem></ToDoitem>
-        <ToDoitem2></ToDoitem2>
+        <ToDoitem tododate={"4/10/2023"} todoName={"Buy Milk"}></ToDoitem>
+        <ToDoitem tododate={"4/10/2023"} todoName={"Go to college"}></ToDoitem>
       </div>
     </center>
   );
